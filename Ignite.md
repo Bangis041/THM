@@ -23,15 +23,16 @@ Checked round after logging in but nothing still so i decided to check online if
 
 ![image](https://github.com/user-attachments/assets/e918cec4-edf4-4e0b-907c-7971a4d19405)
 
-I did a quick nmap scan to check the OS of the system to know the kind of exploit to use and I was left with no option that to use the linux exploit.
-
-![image](https://github.com/user-attachments/assets/b7b952f4-e723-4a5e-88d9-c46d9639c205)
-
 # EXPLOITATION
 
-After finding the exploit, I downloaded it to my machine so I will read and edit if there is any need to.
+After finding the exploit, I saved it to it to my machine/
 
 ![image](https://github.com/user-attachments/assets/1b3cd828-ad11-4b8a-b6cc-5de3f70285ba)
 
-I ran it against the url. PS: I changed the name before running it. 
+I ran the first one against the url. 
 
+PS: I changed the name before running it. For some reasons, it kept giving an error which i did not understand so I used the third exploit and it gave a shell. 
+
+![image](https://github.com/user-attachments/assets/fe6e75b2-68e2-41b1-a4fd-148369f17499)
+
+From here i needed to change it to a reverse shell so i can work better on my terminal. I used an online reverse shell generator to get the commands to use as both the listener and the attacker to get a reverse shell
