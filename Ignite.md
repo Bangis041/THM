@@ -35,4 +35,6 @@ PS: I changed the name before running it. For some reasons, it kept giving an er
 
 ![image](https://github.com/user-attachments/assets/fe6e75b2-68e2-41b1-a4fd-148369f17499)
 
-From here i needed to change it to a reverse shell so i can work better on my terminal. I used an online reverse shell generator to get the commands to use as both the listener and the attacker to get a reverse shell
+From here i needed to change it to a reverse shell so i can work better on my terminal. I used an online reverse shell generator to get the commands to use as both the listener and the attacker to get a reverse shell.
+
+
