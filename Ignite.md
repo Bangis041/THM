@@ -57,7 +57,17 @@ After going front and back multiple times, I did not know what to do again to fi
 
 ![image](https://github.com/user-attachments/assets/22da3cfe-080a-4c52-90c2-7d5a7722afcf)
 
-We make it executable and then run it to see if there are any vulnerabilities we could not find
+We make it executable and then run it to see if there are any vulnerabilities we could not find. While analyzing the result of the linpeas that was ran, we saw something intersting...
 
+![image](https://github.com/user-attachments/assets/2f6cbeae-98b3-4e1b-a150-8cf29cad0ee8)
 
+Looks like we found the password to login as to root and get our root flag. Let's have it.
+
+![image](https://github.com/user-attachments/assets/50651129-c76d-41f3-a594-2ffd81ca3039)
+
+Hehe, now we get our flag 🏁🏁🏁
+
+![image](https://github.com/user-attachments/assets/89bc61e8-b75a-4d11-b8cd-2c1a3b4fd74f)
+
+![image](https://github.com/user-attachments/assets/6f85e5a9-e47d-477f-ae36-493c913c8c46)
 
