@@ -10,7 +10,7 @@ I did further scanning on this to see if there was anything and yes i got someth
 
 # ENUMERATION
 
-I pasted the ip in my browser and it gave me a page, a FUEL CMS page. I tried moving round but there was nothing, Using the image of the second scan with nmap, i still use coconut head to check robots.txr and still nothing too. I did a directory fuzzing
+I pasted the ip in my browser and it gave me a page, a FUEL CMS page. I tried moving round but there was nothing, Using the image of the second scan with nmap, i still use coconut head to check robots.txt and still nothing too. I did a directory fuzzing
 and i got a number of directories.
 
 ![image](https://github.com/user-attachments/assets/0231f25d-f270-4bba-8008-48c10cc40bce)
