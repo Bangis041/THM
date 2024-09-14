@@ -67,6 +67,8 @@ Looks like we found the password to login as to root and get our root flag. Let'
 
 Hehe, now we get our flag 🏁🏁🏁
 
+BANKAI!!!
+
 ![image](https://github.com/user-attachments/assets/89bc61e8-b75a-4d11-b8cd-2c1a3b4fd74f)
 
 ![image](https://github.com/user-attachments/assets/6f85e5a9-e47d-477f-ae36-493c913c8c46)
