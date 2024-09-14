@@ -37,4 +37,27 @@ PS: I changed the name before running it. For some reasons, it kept giving an er
 
 From here i needed to change it to a reverse shell so i can work better on my terminal. I used an online reverse shell generator to get the commands to use as both the listener and the attacker to get a reverse shell.
 
+After trying different commands and not getting any shell, I later eventually used mkfifo alongside a listener on port 80 which gave me a shell...
+
+![image](https://github.com/user-attachments/assets/7796cd7d-d208-4da9-8e8e-b17f3baadb5f)
+
+From here, i proceed to make the shell stable and stop being dumn with ```python -c 'import pty; pty.spawn("/bin/bash")'```
+
+![image](https://github.com/user-attachments/assets/d893bce2-becd-4154-ab5b-da53b2848d9b)
+
+Moving round the files starting from home and checking the user files landed us in the directory where flag.txt was located. This, my people, is how we get user.txt flag
+
+![image](https://github.com/user-attachments/assets/460030e9-295d-455f-ae31-fc769bbd28ec)
+
+Now we need to get the root flag which will lead us to privilage ecalation
+
+# PRIVILEGE ESCALATION
+
+After going front and back multiple times, I did not know what to do again to find root flag, all i knew was that i needed a password to be logged in as root. Since i knew this was a linux machine. I was so pissed, I used linpeas. I went to seek the help of pentestmonkey for the script, hosted a python server and wget it into the shell. 
+
+![image](https://github.com/user-attachments/assets/22da3cfe-080a-4c52-90c2-7d5a7722afcf)
+
+We make it executable and then run it to see if there are any vulnerabilities we could not find
+
+
 
